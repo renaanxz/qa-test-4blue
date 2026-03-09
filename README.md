@@ -29,9 +29,15 @@ Os testes incluíram:
 - Testes de experiência do usuário
 
 # Ambiente de Teste
-Sistema Operacional: Windows 10
-Navegador: Google Chrome
-Versão: 145.0.7632.160
+**Desktop**
+- Sistema Operacional: Windows 10
+- Navegador: Google Chrome
+- Versão: 145.0.7632.160
+
+**Mobile**
+- Dispositivo: Smartphone (Android 16)
+- Navegador: Google Chrome
+- Versão: 145.0.7632.159
 
 
 # RT001 - TELA DE LOGIN
@@ -150,9 +156,36 @@ Média
 Média
 
 
+### CT005
+Layout da tela de login não é exibido corretamente em dispositivos móveis
+
+### Descrição
+Ao acessar o sistema através de um dispositivo móvel, parte das informações da tela de login não é exibida corretamente, diferentemente do comportamento em navegadores de desktop.
+
+### Passos para reproduzir
+1. Acessar a tela de Login em um dispositivo móvel
+2. Navegar até a tela de login
+3. Observar a disposição dos elementos da tela
+
+### Resultado Atual
+Parte das informações da tela de login não aparece completamente ou fica fora da área visível da tela.
+
+### Evidência
+
+
+### Resultado Esperado
+O layout deveria ser responsivo, adaptando corretamente os elementos para diferentes tamanhos de tela.
+
+### Severidade
+Média
+
+### Prioridade
+Média
+
+
 ## FALHAS DE SEGURANÇA
 
-### CT005
+### CT006
 Campos de Login aceitam qualquer tipo de caractere e textos extremamentes longos
 
 ### Descrição
@@ -177,7 +210,7 @@ Médio
 Média
 
 
-### CT006
+### CT007
 Login com espaços antes ou depois do email
 
 ### Descrição
@@ -202,7 +235,7 @@ Média
 Média
 
 
-### CT007
+### CT008
 Login sensível a letras maiúsculas no email
 
 ### Descrição
@@ -233,7 +266,7 @@ Alta
 
 ## BUGS FUNCIONAIS
 
-### CT008
+### CT009
 Sistema permite criação de contas duplicadas
 
 ### Descrição
@@ -261,7 +294,7 @@ Alto
 Alta
 
 
-### CT009
+### CT010
 Sistema permite criação de conta com campos vazios
 
 ### Descrição
@@ -288,7 +321,7 @@ Alto
 Alta
 
 
-### CT010
+### CT011
 Campo confirmar senha não valida igualdade
 
 ### Descrição
@@ -321,7 +354,7 @@ Alta
 
 ## PROBLEMAS DE EXPERIÊNCIA DO USUÁRIO (UX) 
 
-### CT011
+### CT012
 Ausência de opção para visualizar senha durante cadastro
 
 ### Descrição
@@ -344,7 +377,7 @@ Baixo
 Baixa
 
 
-### CT012
+### CT013
 Não existe indicador de força da senha
 
 ### Descrição
@@ -367,7 +400,7 @@ Baixa
 Baixa
 
 
-### CT013
+### CT014
 Campos não indicam obrigatoriedade
 
 ### Descrição
@@ -390,9 +423,36 @@ Baixa
 Baixa
 
 
+### CT015
+Layout da tela de cadastro não é exibido corretamente em dispositivos móveis
+
+### Descrição
+Ao acessar o sistema através de um dispositivo móvel, parte das informações da tela de cadastro  não é exibida corretamente, diferentemente do comportamento em navegadores de desktop.
+
+### Passos para reproduzir
+1. Acessar a tela de Login em um dispositivo móvel
+2. Navegar até a tela de login
+3. Observar a disposição dos elementos da tela
+
+### Resultado Atual
+Parte das informações da tela de cadastro não aparece completamente ou fica fora da área visível da tela.
+
+### Evidência
+
+
+### Resultado Esperado
+O layout deveria ser responsivo, garantindo que todos os elementos sejam exibidos corretamente em telas menores.
+
+### Severidade
+Média
+
+### Prioridade
+Média
+
+
 ## FALHAS DE SEGURANÇA
 
-### CT014
+### CT016
 Campo nome aceita qualquer tipo de caractere
 
 ### Descrição
@@ -416,7 +476,7 @@ Médio
 Média
 
 
-### CT015
+### CT017
 Campo telefone aceita qualquer formato
 
 ### Descrição
@@ -442,7 +502,7 @@ Médio
 Média
 
 
-### CT016
+### CT018
 Campo email aceita formato inválido
 
 ### Descrição
@@ -469,7 +529,7 @@ Alto
 Alta
 
 
-### CT017
+### CT019
 Campos senha aceitam valores extremamente fracos
 
 ### Descrição
@@ -495,7 +555,7 @@ Alto
 Alta
 
 
-### CT018
+### CT020
 Campos do formulário não possuem limite de caracteres
 
 ### Descrição
@@ -518,7 +578,7 @@ Alto
 Alta
 
 
-### CT019
+### CT021
 Sistema permite colar senha diferente no campo confirmar senha sem alerta
 
 ### Descrição
@@ -543,7 +603,7 @@ Alta
 Alta
 
 
-### CT020
+### CT022
 Cadastro permite email com letras maiúsculas criando duplicidade
 
 ### Descrição
@@ -573,7 +633,7 @@ Alta
 
 ## PROBLEMAS DE EXPERIÊNCIA DO USUÁRIO (UX) 
 
-### CT021
+### CT023
 Tela pós-login apresenta apenas a opção ''Sair da conta''
 
 ### Descrição

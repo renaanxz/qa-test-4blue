@@ -601,10 +601,10 @@ Baixa
 
 
 # 1. Quais 2 bugs você corrigiria primeiro e por quê?
-  # CT010 - Campo confirmar senha não valida igualdade
+  ## CT010 - Campo confirmar senha não valida igualdade
   Pois permite que usuários se cadastrem com senhas diferentes, comprometendo o funcionamento básico do cadastro e podendo impedir o login posterior.
   
-  # CT020 - Cadastro permite email com letras maiúsculas criando duplicidade
+  ## CT020 - Cadastro permite email com letras maiúsculas criando duplicidade
   Pois isso pode gerar múltiplas contas para o mesmo usuário e causar inconsistências na base de dados do sistema.
   
 # 2. Caso tenha, coloque suas sugestões de melhorias para essas telas.

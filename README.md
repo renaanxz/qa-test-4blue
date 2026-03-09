@@ -168,10 +168,10 @@ Ao acessar o sistema através de um dispositivo móvel, parte das informações 
 3. Observar a disposição dos elementos da tela
 
 ### Resultado Atual
-Parte das informações da tela de login não aparece completamente ou fica fora da área visível da tela.
+Parte das informações da tela de login não aparecem completamente na tela.
 
 ### Evidência
-
+![imagem alt](https://github.com/renaanxz/qa-test-4blue/blob/main/layout%20login%20mobile.jpg?raw=true)
 
 ### Resultado Esperado
 O layout deveria ser responsivo, adaptando corretamente os elementos para diferentes tamanhos de tela.
@@ -427,7 +427,7 @@ Baixa
 Layout da tela de cadastro não é exibido corretamente em dispositivos móveis
 
 ### Descrição
-Ao acessar o sistema através de um dispositivo móvel, parte das informações da tela de cadastro  não é exibida corretamente, diferentemente do comportamento em navegadores de desktop.
+Ao acessar o sistema através de um dispositivo móvel, parte das informações da tela de cadastro não é exibida corretamente, diferentemente do comportamento em navegadores de desktop.
 
 ### Passos para reproduzir
 1. Acessar a tela de Login em um dispositivo móvel
@@ -435,10 +435,10 @@ Ao acessar o sistema através de um dispositivo móvel, parte das informações 
 3. Observar a disposição dos elementos da tela
 
 ### Resultado Atual
-Parte das informações da tela de cadastro não aparece completamente ou fica fora da área visível da tela.
+Parte das informações da tela de cadastro não aparecem completamente na tela.
 
 ### Evidência
-
+![image alt](https://github.com/renaanxz/qa-test-4blue/blob/main/layout%20cadastro%20mobile.jpg?raw=true)
 
 ### Resultado Esperado
 O layout deveria ser responsivo, garantindo que todos os elementos sejam exibidos corretamente em telas menores.

@@ -165,8 +165,7 @@ Ao acessar o sistema através de um dispositivo móvel, parte das informações 
 
 ### Passos para reproduzir
 1. Acessar a tela de Login em um dispositivo móvel
-2. Navegar até a tela de login
-3. Observar a disposição dos elementos da tela
+2. Observar a disposição dos elementos da tela
 
 ### Resultado Atual
 Parte das informações da tela de login não aparecem completamente na tela.
@@ -431,9 +430,8 @@ Layout da tela de cadastro não é exibido corretamente em dispositivos móveis
 Ao acessar o sistema através de um dispositivo móvel, parte das informações da tela de cadastro não é exibida corretamente, diferentemente do comportamento em navegadores de desktop.
 
 ### Passos para reproduzir
-1. Acessar a tela de Login em um dispositivo móvel
-2. Navegar até a tela de login
-3. Observar a disposição dos elementos da tela
+1. Acessar a tela de Cadastro em um dispositivo móvel
+2. Observar a disposição dos elementos da tela
 
 ### Resultado Atual
 Parte das informações da tela de cadastro não aparecem completamente na tela.

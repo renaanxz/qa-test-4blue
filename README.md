@@ -27,6 +27,7 @@ Os testes incluíram:
 - Testes de segurança básica
 - Testes de navegação
 - Testes de experiência do usuário
+- Testes de responsividade em dispositivos móveis
 
 # Ambiente de Teste
 **Desktop**
@@ -675,3 +676,4 @@ Baixa
   - Desabilitar botões durante requisições ("Entrar" ou "Cadastrar")
   - Melhorar feedback ao usuário, permitindo que todas as mensagens de erro sejam claras e objetivas
   - Padronizar tratamento de emails, removendo espaços extras e tratando letras maiúsculas e minúsculas da mesma forma, evitando problemas de autenticação e duplicidade de contas.
+  - Melhorar a responsividade das telas para dispositivos móveis.

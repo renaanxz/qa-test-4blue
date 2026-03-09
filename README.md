@@ -194,8 +194,8 @@ Os campos de email e senha aceitam qualquer tipo de caractere e não possuem lim
 ### Passos para reproduzir
 1. Acessar a tela de Login
 2. Inserir valores como: 
-@@@@
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+- @@@@
+- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ### Resultado Atual
 O sistema aceita qualquer valor inserido.
@@ -385,7 +385,7 @@ O sistema não apresenta indicador visual que informe ao usuário se a senha cri
 
 ### Passos para reproduzir
 1. Acessar a tela de cadastro
-2. Inserir uma senha simples como 123456
+2. Inserir uma senha simples como: 123456
 
 ### Resultado Atual
 O sistema não apresenta nenhuma indicação sobre a segurança da senha.
@@ -460,7 +460,7 @@ O campo nome aceita números e caracteres especiais sem validação.
 ### Passos para reproduzir
 1. Acessar a tela de cadastro
 2. Inserir valores no campo nome como:
-123@@@###
+- 123@@@###
 
 ### Resultado Atual
 O sistema aceita o valor inserido
@@ -484,9 +484,9 @@ O campo telefone aceita letras e caracteres especiais.
 ### Passos para reproduzir
 1. Acessar a tela de cadastro
 2. Inserir valores no campo telefone como:
-abcde
-@@@@
-123abc
+- abcde
+- @@@@
+- 123abc
 
 ### Resultado Atual
 O sistema aceita o valor inserido
@@ -510,10 +510,10 @@ O campo email aceita valores que não correspondem a um formato válido de email
 ### Passos para reproduzir
 1. Acessar a tela de cadastro
 2. Inserir valores no campo email como:
-teste
-teste@
-@email
-123456
+- teste
+- teste@
+- @email
+- 123456
 
 ### Resultado Atual
 O sistema aceita o email inválido.
@@ -537,9 +537,9 @@ Os campos de senha não possuem critérios mínimos de segurança.
 ### Passos para reproduzir
 1. Acessar a tela de cadastro
 2. Inserir senhas como: 
-1
-123
-abc
+- 1
+- 123
+- abc
 
 ### Resultado Atual
 Conta criada com senha fraca.
